@@ -5,19 +5,19 @@
 <table style="margin:auto;">
   <tr>
     <th><h3>Original</h3></th>
-    <th><h3>New Link</h3></th>
+    <th><h3>New</h3></th>
     <th><h3>Delete</h3></th>
     <th><h3>Edit</h3></th>
   </tr>
 
 <%@url.each do |url| %>
 	<tr>		
-<td><%=url.link %> </td>
-<td><%= link_to url.random, go_path(url.random) %> </td>
+<td><h4><%=url.link %></h4> </td>
+<td><h4><%= link_to url.random, go_path(url.random) %></h4> </td>
 
-<td><%= link_to "Delete", url, method: :delete, data: { confirm: "You sure?" }%></td>
+<td><h4><%= link_to "Delete", url, method: :delete, data: { confirm: "You sure?" }%></h4></td>
 
-<td><%= link_to "Edit", edit_url_path(url[:id])%></td>
+<td><h4><%= link_to "Edit", edit_url_path(url[:id])%></h4></td>
 </tr>
 
 <%end%>

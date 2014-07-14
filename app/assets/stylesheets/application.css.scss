@@ -13,36 +13,6 @@
  *= require_tree .
  */
 
-/*
-body.show {
-text-align: center;
-background-image: url("http://static.hdw.eweb4.com/media/wallpapers_1920x1080/computers/1/1/web-browsers-computer-hd-wallpaper-1920x1080-4222.jpg");
-background-size: cover;
-color:white;
-}
-
-body.edit{
-	text-align: center;
-	background-image: url("http://rhyscorhys.files.wordpress.com/2013/05/editing.jpg");
-	background-size: cover;
-}
-
-body.new {
-	background-image: url("http://www.botonakis.com/wp-content/uploads/2013/06/people_working_internet_earth.jpg");
-	background-size: cover;
-	color:white;
-	text-align: center;
-
-}
-
-body.results{
-	background-image: url("http://www.hdwallpapers.in/walls/abstract_color_background_picture_8016-wide.jpg");
-	background-size: cover;
-	text-align: center;
-	color:white;
-}
-*/
-
 .homelink{
 	float: left;
 	margin-left: 2em;
@@ -72,7 +42,7 @@ table {
 }
 
 td{
- 	border: 1px solid #999;
+ 	// border: 1px solid #999;
   	padding: 0.5rem;	
 }
 
